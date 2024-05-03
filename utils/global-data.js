@@ -8,10 +8,14 @@ export const getGlobalData = () => {
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
+  const theme = process.env.BLOG_THEME
+    ? decodeURI(process.env.BLOG_THEME)
+    : 'dark';
 
   return {
     name,
     blogTitle,
     footerText,
+    theme
   };
 };
