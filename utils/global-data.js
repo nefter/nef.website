@@ -4,10 +4,10 @@ export const getGlobalData = () => {
     : 'Nef Rossano';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Full-Stack, Design & Social';
+    : 'Full Stack Dev & Design';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : 'All rights reserved. México 2024.';
   const theme = process.env.BLOG_THEME
     ? decodeURI(process.env.BLOG_THEME)
     : 'dark';
